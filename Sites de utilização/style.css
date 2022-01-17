@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #22BD87, white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: black;
+    background: #2BF0AB;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+}

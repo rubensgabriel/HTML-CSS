@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body{
+    background-image: linear-gradient(to right,#006d77, #83c5be);
+}
+main{
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    background-color: #a8dadc;
+    padding: 10px;
+    text-align: center;
+    color: rgb(20, 18, 18);
+    font-family: 'Patrick Hand';
+    border-radius: 60px;
+    box-shadow: 8px 7px 7px #006d77a6;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: #16191a;
+    font-size: 1.3em;
+    display: inline-block;
+}
