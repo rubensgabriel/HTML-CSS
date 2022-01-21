@@ -9,30 +9,56 @@
     margin: 0px;
     padding: 0px;
 }
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
     background-color: black;
     color: white;
     margin: auto;
     text-align: center;
     font-family: var(--fonte-titulo);
-    font-size: 2em;
-    padding: 20px;
 }
-main > p{
-    width: 350px;
+header > h1{
+    font-variant: small-caps;
+    font-size: 5em;
+    padding: 40px;
+}
+section{
+    background-color: white;
+    color: black;
+    padding: 10vh 0vh;
+    line-height: 3em;
+    padding-left: 30px;
+}
+section > p{
+    width: 400px;
     font-family: var(--fonte-padrao);
-    font-size: 1.4em;
-    padding: 16px;
+    font-size: 1.3em;
 }
-.fundo{
-    background-color: rgba(0, 0, 0, 0.493);
+section > h2{
+    width: 400px;
+    font-family: var(--fonte-padrao);
+}
+section.imagem{
+    background-color: rgba(53, 53, 53, 0.993);
     color: white;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+section.imagem > h2{
+    background-color: rgba(0, 0, 0, 0.596);
 }
 a{
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
     font-style: normal;
+}
+a:hover{
+    text-decoration: underline;
 }
 footer > p{
     background-color: black;
@@ -43,7 +69,7 @@ footer > p{
     padding: 5px 0px;
 }
 footer{
-    padding: 25px 0px 0px 0px;
+    padding-top: 50px;
     text-align: center;
     font-style: italic;
 }
