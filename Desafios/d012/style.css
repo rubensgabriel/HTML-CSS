@@ -22,7 +22,7 @@ header{
 }
 header > h1{
     font-variant: small-caps;
-    font-size: 5em;
+    font-size: 4.5em;
     padding: 40px;
 }
 section{
@@ -31,15 +31,16 @@ section{
     padding: 10vh 0vh;
     line-height: 3em;
     padding-left: 30px;
+    font-family: var(--fonte-padrao);
 }
 section > p{
-    width: 400px;
-    font-family: var(--fonte-padrao);
-    font-size: 1.3em;
+    max-width: 400px;
+    min-width: 280px;
+    font-size: 1.2em;
 }
 section > h2{
-    width: 400px;
-    font-family: var(--fonte-padrao);
+    max-width: 400px;
+    min-width: 280px;
 }
 section.imagem{
     background-color: rgba(53, 53, 53, 0.993);
@@ -47,9 +48,11 @@ section.imagem{
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.596);
+    padding: 5px;
 }
 section.imagem > h2{
     background-color: rgba(0, 0, 0, 0.596);
+    padding: 5px;
 }
 a{
     text-decoration: none;
