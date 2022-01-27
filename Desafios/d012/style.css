@@ -28,7 +28,7 @@ header > h1{
 section{
     background-color: white;
     color: black;
-    padding: 10vh 0vh;
+    padding: 15vh 0vh;
     line-height: 3em;
     padding-left: 30px;
     font-family: var(--fonte-padrao);
@@ -45,14 +45,35 @@ section > h2{
 section.imagem{
     background-color: rgba(53, 53, 53, 0.993);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.623);
+    background-attachment: fixed;
+    background-size: cover;
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: rgba(0, 0, 0, 0.425);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 section.imagem > h2{
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: rgba(0, 0, 0, 0.425);
     padding: 5px;
+    text-shadow:1px 1px 0px black
+}
+section#img001{
+    background-image: url(imagens/penhasco.jpg);
+    background-position: right right;
+}
+section#img002{
+    background-image: url(imagens/despedacado.jpg);
+    background-position: center center;
+}
+section#img003{
+    background-image: url(imagens/ambar.jpg);
+    background-position: center left;
+}
+section#img004{
+    background-image: url(imagens/morte.jpg);
+    background-position: center center;
 }
 a{
     text-decoration: none;
@@ -72,7 +93,6 @@ footer > p{
     padding: 5px 0px;
 }
 footer{
-    padding-top: 50px;
     text-align: center;
     font-style: italic;
 }
