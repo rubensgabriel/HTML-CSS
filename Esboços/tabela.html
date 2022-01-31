@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros 2022</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+        caption{
+            background-color: rgb(14, 29, 26);
+            padding: 15px;
+            font-size: 1.6em;
+            color: white;
+        }
+        th{
+            background-color: rgb(29, 80, 71);
+            border: 1px solid black;
+            padding: 10px;
+            color: white;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        thead > tr >th{
+            background-color: rgb(29, 80, 71);
+            position: sticky;
+            top: -1px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Livros lidos em 2022</caption>
+        <thead>
+            <tr>
+                <th scope="col">Livros</th>
+                <th scope="col">Mês de Término</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Leah fora de sintonia</td>
+                <td>Janeiro</td>
+            </tr>
+            <tr>
+                <td>Os dois morrem no final</td>
+                <td>Janeiro</td>
+            </tr>
+            <tr>
+                <td>Os 27 crushes de Molly</td>
+                <td>Janeiro</td>
+            </tr>
+            <tr>
+                <td>O Filho de Netuno</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de livros lidos</th>
+                <th>3</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
